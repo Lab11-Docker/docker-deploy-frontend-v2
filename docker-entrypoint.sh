@@ -2,8 +2,8 @@
 set -e
 
 # Default values (match .env.production) if env vars are not set
-VITE_GRAPHQL_URI="${VITE_GRAPHQL_URI:-http://54.147.184.105:8083/graphql}"
-VITE_SERVER_URI="${VITE_SERVER_URI:-http://54.147.184.105:8083}"
+VITE_GRAPHQL_URI="${VITE_GRAPHQL_URI:-http://3.88.103.169:8083/graphql}"
+VITE_SERVER_URI="${VITE_SERVER_URI:-http://3.88.103.169:8083}"
 
 # Replace placeholders in all JS files with actual runtime values
 find /usr/share/nginx/html/assets -name '*.js' -exec sed -i \
